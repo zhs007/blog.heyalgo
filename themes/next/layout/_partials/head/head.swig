@@ -119,7 +119,14 @@
     }
   };
 </script>
-<script data-ad-client="ca-pub-9514667074467124" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="//pagead2.googlesyndication.com/
+pagead/js/adsbygoogle.js"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({
+google_ad_client: "pub-9514667074467124",
+enable_page_level_ads: true
+});
+</script>
 
 {% if theme.custom_file_path.head %}
   {% set custom_head = '../../../../../' + theme.custom_file_path.head %}
