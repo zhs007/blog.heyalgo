@@ -3,7 +3,14 @@ date: 2019-10-07 09:12:09
 tags:
 ---
 
-首先，我们需要先来安装fasttext，直接从github来安装吧。
+去年折腾BERT的时候，特地租了一台GPU的阿里云服务器，当时Jarvis功能还不够完善，所以最终也是装了个``jupyter notebook``环境，这样远程操作省事点。  
+如果对算力要求不是很大，试验性质的，其实直接用``colab``也挺好的。  
+
+因为前面是自己的服务器，所以我把环境的配置全写在``Dockerfile``里面了，这样在``jupyter``里只需要简单的编码就行了，这次用``colab``，就需要自己在notebook里搭环境了，下面简单列一下前几天安装fasttext的流程吧。
+
+### 安装
+
+我们直接从github来安装fasttext吧，记住下载完成以后，还需要编译。
 
 ```sh
 !git clone https://github.com/facebookresearch/fastText.git
@@ -142,6 +149,8 @@ Successfully built fasttext
 Installing collected packages: fasttext
 Successfully installed fasttext-0.9.1
 ```
+
+### 文本分类的例子
 
 textfast安装好以后，可以直接运行里面的文本分类的例子，就是``classification-example.sh``。  
 因为当前目录已经在``fastText``里了，所以不需要切换目录，直接运行即可。  
