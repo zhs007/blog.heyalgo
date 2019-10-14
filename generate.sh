@@ -4,3 +4,5 @@ mkdir ./public
 docker run --rm \
   -v $PWD/public:/home/blog.heyalgo/public \
   blog.heyalgo hexo generate
+
+cp ads.txt ./public/
