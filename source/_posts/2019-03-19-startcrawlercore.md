@@ -1,7 +1,10 @@
 title: 正式开始CrawlerCore
 date: 2019-03-19 16:10:24
-tags:
+tags: [jarviscrawlercore, 爬虫, crawler, puppeteer]
+keywords: jarviscrawlercore, 爬虫, crawler, puppeteer
+description: 2019年3月工作总结
 ---
+
 这算是我第3次认真的写爬虫框架了（不算打酱油的尝试）。  
 前几天又花时间把现在的一些库梳理了一下，感觉现在各种基础库比上次写的时候要完善很多，这次应该能做好点。  
 

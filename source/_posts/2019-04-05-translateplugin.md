@@ -1,6 +1,8 @@
-title: translate插件
+title: 如何让Jarvis能自动多语言翻译
 date: 2019-04-05 16:18:11
-tags:
+tags: [Jarvis, 翻译, google翻译]
+keywords: Jarvis, 翻译, google翻译
+description: 如何让Jarvis能自动多语言翻译
 ---
 
 今天加了``translate``插件，当然，首先需要在``config.yaml``里配置加载插件。

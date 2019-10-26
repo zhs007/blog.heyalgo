@@ -1,6 +1,8 @@
 title: 关于puppeteer的一点记录
 date: 2019-03-26 16:13:51
-tags:
+tags: puppeteer
+keywords: puppeteer
+description: 近期使用puppeteer的一点记录
 ---
 关于``puppeteer``，留点记录。
 

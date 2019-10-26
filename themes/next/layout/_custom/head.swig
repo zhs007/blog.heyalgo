@@ -1,3 +1,6 @@
 {#
 Custom head.
 #}
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}">
+{% endif %}

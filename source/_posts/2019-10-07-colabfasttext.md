@@ -1,6 +1,8 @@
-title: 在colab上运行fasttext
+title: 在colab上用fasttext训练
 date: 2019-10-07 09:12:09
-tags:
+tags: [colab, fasttext, 文本分类, NLP]
+keywords: colab, fasttext, 文本分类, NLP
+description: 如何在colab上用fasttext训练
 ---
 
 去年折腾BERT的时候，特地租了一台GPU的阿里云服务器，当时Jarvis功能还不够完善，所以最终也是装了个``jupyter notebook``环境，这样远程操作省事点。  

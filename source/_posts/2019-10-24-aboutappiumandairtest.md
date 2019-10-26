@@ -1,6 +1,8 @@
-title: Appium & Airtest
+title: 如何用Appium & Airtest进行自动化移动App测试
 date: 2019-10-24 16:32:05
-tags: [appium, airtest, android, app]
+tags: [appium, airtest, android, app, 测试, 自动化测试, App测试]
+keywords: appium, airtest, android, app, 测试, 自动化测试, App测试
+description: 如何用Appium & Airtest进行自动化移动App测试
 ---
 
 ### Mobile App的自动化测试
