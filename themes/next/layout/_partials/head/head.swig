@@ -120,6 +120,14 @@
   };
 </script>
 <script data-ad-client="ca-pub-9514667074467124" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/highlight.js/9.1.0/styles/github.min.css"
+/>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts.min.js"
+></script>
 
 {% if theme.custom_file_path.head %}
   {% set custom_head = '../../../../../' + theme.custom_file_path.head %}
