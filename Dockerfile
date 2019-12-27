@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:12
 
 RUN npm i hexo-cli -g
 
